@@ -1,0 +1,8 @@
+{"id":"D001","question":"شو رسوم الصيانة الشهرية على الحساب؟","expected_policy":"POL-001"}
+{"id":"D002","question":"كم مرة أقدر أسحب من الصراف مجاناً بالشهر؟","expected_policy":"POL-003"}
+{"id":"D003","question":"وش اسوي إذا انسرقت بطاقتي؟ ابي أجمدها","expected_policy":"POL-009"}
+{"id":"D004","question":"ابغى أعترض على عملية ما سويتها بالكرت","expected_policy":"POL-005"}
+{"id":"A_Z001","question":"shu rusoom al siyana alshahriya ala alhisab?","expected_policy":"POL-001"}
+{"id":"A_Z002","question":"kam marra a2dar asheb min al sarraf bidoon rusoom?","expected_policy":"POL-003"}
+{"id":"A_Z003","question":"kif a jammid al bitaqa ba3d ma daa3at?","expected_policy":"POL-009"}
+{"id":"A_Z004","question":"abghi a7ki ma3a mudhaf bashari","expected_policy":"POL-028"}

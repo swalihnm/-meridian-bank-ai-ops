@@ -1,0 +1,13 @@
+{"id":"A001","question":"ما هي رسوم الصيانة الشهرية على الحساب الجاري؟","expected_policy":"POL-001"}
+{"id":"A002","question":"متى يتم إعفاء الحساب الجاري من رسوم الصيانة؟","expected_policy":"POL-001"}
+{"id":"A003","question":"كم عدد عمليات السحب المجانية من أجهزة الصراف في الشهر؟","expected_policy":"POL-003"}
+{"id":"A004","question":"كم تكلفة السحب من جهاز صراف لبنك آخر داخل الإمارات؟","expected_policy":"POL-003"}
+{"id":"A005","question":"كيف أعترض على عملية لم أقم بها في بطاقتي؟","expected_policy":"POL-005"}
+{"id":"A006","question":"خلال كم يوماً يمكنني تقديم اعتراض على عملية بطاقة؟","expected_policy":"POL-005"}
+{"id":"A007","question":"كيف أجمد بطاقتي بعد أن فقدتها؟","expected_policy":"POL-009"}
+{"id":"A008","question":"هل يلغي تجميد البطاقة المدفوعات المتكررة؟","expected_policy":"POL-009"}
+{"id":"A009","question":"أريد التحدث إلى موظف بشري من فضلك","expected_policy":"POL-028"}
+{"id":"A010","question":"هل يمكنني طلب التحدث مع موظف عند تقديم شكوى؟","expected_policy":"POL-028"}
+{"id":"A011","question":"ما هو الطقس في دبي غداً؟","expected_policy":null}
+{"id":"A012","question":"اكتب لي قصيدة عن البحر","expected_policy":null}
+{"id":"A013","question":"ما هي أفضل طريقة لطبخ الكبسة؟","expected_policy":null}

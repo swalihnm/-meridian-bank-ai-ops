@@ -1,0 +1,70 @@
+{"id":"R001","question":"How much is the monthly maintenance fee on my current account?","expected_policy":"POL-001"}
+{"id":"R002","question":"When is the maintenance fee waived on a current account?","expected_policy":"POL-001"}
+{"id":"R003","question":"What fee do I pay when I spend in a foreign currency with my card?","expected_policy":"POL-002"}
+{"id":"R004","question":"Is there a charge for using my card abroad in another currency?","expected_policy":"POL-002"}
+{"id":"R005","question":"How many free ATM withdrawals do I get each month?","expected_policy":"POL-003"}
+{"id":"R006","question":"What does it cost to withdraw cash from another bank's ATM in the UAE?","expected_policy":"POL-003"}
+{"id":"R007","question":"I missed my credit card payment, what late charge will I pay?","expected_policy":"POL-004"}
+{"id":"R008","question":"How long after the statement can I dispute a card transaction?","expected_policy":"POL-005"}
+{"id":"R009","question":"Can I raise a dispute in the app or only at a branch?","expected_policy":"POL-005"}
+{"id":"R010","question":"How many days does the bank take to decide a card dispute?","expected_policy":"POL-006"}
+{"id":"R011","question":"Will I get my money back straight away while the dispute is being checked?","expected_policy":"POL-006"}
+{"id":"R012","question":"Does a dispute of AED 2,000 need agent approval?","expected_policy":"POL-007"}
+{"id":"R013","question":"I did not make a payment and I reported it two days after the notification, am I liable?","expected_policy":"POL-008"}
+{"id":"R014","question":"How do I freeze my card if I have lost it?","expected_policy":"POL-009"}
+{"id":"R015","question":"Does freezing my card cancel my recurring payments?","expected_policy":"POL-009"}
+{"id":"R016","question":"Can I unfreeze a card that the bank froze for suspected fraud?","expected_policy":"POL-010"}
+{"id":"R017","question":"How long does it take to get a replacement card after it was stolen?","expected_policy":"POL-011"}
+{"id":"R018","question":"What is my default daily card spending limit?","expected_policy":"POL-012"}
+{"id":"R019","question":"Can I ask for a higher daily spending limit on my card?","expected_policy":"POL-013"}
+{"id":"R020","question":"What is the maximum I can transfer from my account in one day in the app?","expected_policy":"POL-014"}
+{"id":"R021","question":"Which documents do I need to open an account with Meridian?","expected_policy":"POL-015"}
+{"id":"R022","question":"I moved house, how do I change my postal address?","expected_policy":"POL-016"}
+{"id":"R023","question":"The shop refunded me but the money has not arrived, what should I do?","expected_policy":"POL-017"}
+{"id":"R024","question":"Can the bank reverse a card payment for goods I never received?","expected_policy":"POL-018"}
+{"id":"R025","question":"How do I close my account and what happens to the money left in it?","expected_policy":"POL-019"}
+{"id":"R026","question":"Can I close my account if it is overdrawn?","expected_policy":"POL-020"}
+{"id":"R027","question":"My account has not been used for two years, what happens to it?","expected_policy":"POL-021"}
+{"id":"R028","question":"How much overdraft can I get on my current account?","expected_policy":"POL-022"}
+{"id":"R029","question":"How is interest calculated on my savings account?","expected_policy":"POL-023"}
+{"id":"R030","question":"How long can I download my monthly statements in the app?","expected_policy":"POL-024"}
+{"id":"R031","question":"Do I get a message when my card is used?","expected_policy":"POL-025"}
+{"id":"R032","question":"Do I need to tell the bank before I travel abroad?","expected_policy":"POL-026"}
+{"id":"R033","question":"How long does the bank take to answer a complaint?","expected_policy":"POL-027"}
+{"id":"R034","question":"Can I speak to a real person instead of the chatbot?","expected_policy":"POL-028"}
+{"id":"R035","question":"How long do you keep my chat transcripts?","expected_policy":"POL-029"}
+{"id":"R036","question":"Can you tell me whether I will be approved for a personal loan?","expected_policy":"POL-030"}
+{"id":"R037","question":"Is there a fee for a new card when mine is damaged?","expected_policy":"POL-011"}
+{"id":"R038","question":"What is the fee for requesting paper statements?","expected_policy":"POL-024"}
+{"id":"R039","question":"Can a card be blocked when I use it in another country?","expected_policy":"POL-026"}
+{"id":"R040","question":"What happens if I withdraw money from an ATM abroad?","expected_policy":"POL-003"}
+{"id":"R041","question":"Do I have to pay anything to cancel my card after I lose it?","expected_policy":"POL-011"}
+{"id":"R042","question":"My account has a negative balance, can I still close it?","expected_policy":"POL-020"}
+{"id":"R043","question":"When are my card limits reset each day?","expected_policy":"POL-012"}
+{"id":"R044","question":"Which identity checks does the bank repeat for existing customers?","expected_policy":"POL-015"}
+{"id":"R045","question":"What do I get if an unauthorised transaction is reported within 48 hours?","expected_policy":"POL-008"}
+{"id":"R046","question":"Can the assistant give me investment advice on which funds to buy?","expected_policy":"POL-030"}
+{"id":"R047","question":"How much notice do I need to give before closing my account?","expected_policy":"POL-019"}
+{"id":"R048","question":"What is the savings account interest rate this month?","expected_policy":"POL-023"}
+{"id":"R049","question":"Will the bank charge a fee when my account is inactive?","expected_policy":"POL-021"}
+{"id":"R050","question":"How do I escalate a complaint if I am not happy with the answer?","expected_policy":"POL-027"}
+{"id":"R051","question":"Can I have transfers above AED 50,000 in one day through the app?","expected_policy":"POL-014"}
+{"id":"R052","question":"Is my card number stored in the chat history?","expected_policy":"POL-029"}
+{"id":"R053","question":"What is the overdraft interest charged on?","expected_policy":"POL-022"}
+{"id":"R054","question":"How do I get an alert when a payment goes through?","expected_policy":"POL-025"}
+{"id":"R055","question":"Can I get a faster reply on my dispute if the amount is large?","expected_policy":"POL-007"}
+{"id":"R056","question":"How long after a merchant refund should I wait before complaining?","expected_policy":"POL-017"}
+{"id":"R057","question":"Can I file a chargeback for duplicate charges?","expected_policy":"POL-018"}
+{"id":"R058","question":"How long does a customer have to report a card fraud and be protected?","expected_policy":"POL-008"}
+{"id":"R059","question":"Can I change my address the same day without verification?","expected_policy":"POL-016"}
+{"id":"R060","question":"What is the default ATM withdrawal limit per day?","expected_policy":"POL-012"}
+{"id":"R061","question":"What is the weather in Dubai tomorrow?","expected_policy":null}
+{"id":"R062","question":"Who won the football match last night?","expected_policy":null}
+{"id":"R063","question":"Write me a poem about the sea.","expected_policy":null}
+{"id":"R064","question":"How do I cook a biryani?","expected_policy":null}
+{"id":"R065","question":"What is the capital of Australia?","expected_policy":null}
+{"id":"R066","question":"Recommend a good laptop for programming.","expected_policy":null}
+{"id":"R067","question":"How do I renew my car registration?","expected_policy":null}
+{"id":"R068","question":"Can you translate this sentence into French?","expected_policy":null}
+{"id":"R069","question":"What time is the next flight to London?","expected_policy":null}
+{"id":"R070","question":"Tell me a joke about cats.","expected_policy":null}
