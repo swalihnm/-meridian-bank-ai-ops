@@ -1,0 +1,19 @@
+{
+  "hypothesis": "The cross-encoder reranker improves recall@5 over hybrid retrieval.",
+  "traffic": "offline replay, 60 in-scope golden questions, paired",
+  "n": 60,
+  "recall_at_5_control": 0.9333333333333333,
+  "recall_at_5_treatment": 0.9833333333333333,
+  "recall_discordant_control_only": 0,
+  "recall_discordant_treatment_only": 3,
+  "recall_mcnemar_p": 0.25,
+  "recall_treatment_ci95": [
+    0.9114487018291041,
+    0.9970518402378096
+  ],
+  "citation_control": 0.7833333333333333,
+  "citation_treatment": 0.75,
+  "citation_discordant_control_only": 3,
+  "citation_discordant_treatment_only": 1,
+  "citation_mcnemar_p": 0.625
+}

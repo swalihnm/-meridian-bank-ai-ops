@@ -1,0 +1,18 @@
+{
+  "customers_compared": 20000,
+  "features_compared": 10,
+  "relative_tolerance": 1e-09,
+  "mismatches_per_feature": {
+    "n_accounts": 0,
+    "n_txn": 0,
+    "mean_abs_amount": 0,
+    "share_online": 0,
+    "share_atm": 0,
+    "share_travel": 0,
+    "share_transfer_out": 0,
+    "income_total": 0,
+    "segment_affluent": 0,
+    "segment_business": 0
+  },
+  "total_mismatches": 0
+}

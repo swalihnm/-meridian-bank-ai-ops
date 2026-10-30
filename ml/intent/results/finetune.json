@@ -1,0 +1,10 @@
+{
+  "source": "copied verbatim from the run output of `python -m ml.intent.finetune` (exit 0, 2026-10-29)",
+  "best_val_accuracy": 0.8971,
+  "temperature": 0.6916,
+  "test_accuracy": 0.8935,
+  "test_macro_f1": 0.8900,
+  "test_ece_raw": 0.1320,
+  "test_ece_calibrated": 0.0160,
+  "checkpoint": "ml/intent/artifacts/distilbert_intent.pt"
+}

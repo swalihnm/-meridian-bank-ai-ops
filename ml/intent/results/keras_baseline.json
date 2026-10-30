@@ -1,0 +1,8 @@
+{
+  "model": "keras dense on tf-idf (256 hidden, dropout 0.3)",
+  "epochs_run": 11,
+  "best_val_accuracy": 0.8931068778038025,
+  "test_accuracy": 0.900974025974026,
+  "test_macro_f1": 0.9015565999437595,
+  "tensorflow_version": "2.21.0"
+}

@@ -1,0 +1,47 @@
+{
+  "n_test": 3080,
+  "checkpoint": "ml\\intent\\artifacts\\distilbert_intent_kaggle.pt",
+  "models": {
+    "tfidf_logreg": {
+      "accuracy": 0.8896103896103896,
+      "accuracy_ci95": [
+        0.8780541399942273,
+        0.9001959847286668
+      ]
+    },
+    "distilbert": {
+      "accuracy": 0.9165584415584416,
+      "accuracy_ci95": [
+        0.9062652336081463,
+        0.9258138580747479
+      ]
+    },
+    "keras_tfidf": {
+      "accuracy": 0.900974025974026,
+      "accuracy_ci95": [
+        0.8899204805700677,
+        0.9110286061239109
+      ]
+    }
+  },
+  "paired_tests": [
+    {
+      "pair": "keras_tfidf vs distilbert",
+      "keras_tfidf_only_correct": 95,
+      "distilbert_only_correct": 143,
+      "mcnemar_p": 0.0022467345076008843
+    },
+    {
+      "pair": "keras_tfidf vs tfidf_logreg",
+      "keras_tfidf_only_correct": 77,
+      "tfidf_logreg_only_correct": 42,
+      "mcnemar_p": 0.0017105290774106707
+    },
+    {
+      "pair": "distilbert vs tfidf_logreg",
+      "distilbert_only_correct": 174,
+      "tfidf_logreg_only_correct": 91,
+      "mcnemar_p": 3.8297085821199745e-07
+    }
+  ]
+}

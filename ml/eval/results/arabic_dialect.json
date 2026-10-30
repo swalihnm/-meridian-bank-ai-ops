@@ -1,0 +1,56 @@
+{
+  "n": 8,
+  "correct": 1,
+  "rate": 0.125,
+  "rows": [
+    {
+      "id": "D001",
+      "correct": true,
+      "answered": true,
+      "reason": null
+    },
+    {
+      "id": "D002",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    },
+    {
+      "id": "D003",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    },
+    {
+      "id": "D004",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    },
+    {
+      "id": "A_Z001",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    },
+    {
+      "id": "A_Z002",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    },
+    {
+      "id": "A_Z003",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    },
+    {
+      "id": "A_Z004",
+      "correct": false,
+      "answered": false,
+      "reason": "low_query_overlap"
+    }
+  ],
+  "note": "Gulf dialect and Arabizi, hand-written by the project; lexical retrieval, no normalisation"
+}

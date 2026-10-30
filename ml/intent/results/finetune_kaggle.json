@@ -1,0 +1,10 @@
+{
+  "source": "pasted verbatim from the Kaggle GPU run of ml/intent/finetune.py (2026-10-30, TrainConfig freeze_embeddings=False, epochs=4)",
+  "best_val_accuracy": 0.9110889110889111,
+  "temperature": 0.8337239982950139,
+  "test_accuracy": 0.9165584415584416,
+  "test_macro_f1": 0.9167731353972514,
+  "test_ece_raw": 0.04882260633557764,
+  "test_ece_calibrated": 0.012760071417038448,
+  "checkpoint": "kaggle output: distilbert_intent.pt"
+}

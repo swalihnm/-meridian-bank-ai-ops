@@ -1,0 +1,17 @@
+{
+  "hypothesis": "Two-match rule reduces out-of-scope answers without losing in-scope correct answers.",
+  "traffic": "offline replay, BM25, golden set (hand-written, also used to find the bug)",
+  "control_oos_answered": 1,
+  "treatment_oos_answered": 0,
+  "n_out_of_scope": 10,
+  "control_in_scope_correct": 41,
+  "treatment_in_scope_correct": 39,
+  "n_in_scope": 60,
+  "discordant_control_only": 2,
+  "discordant_treatment_only": 0,
+  "mcnemar_p": 0.5,
+  "treatment_in_scope_ci95": [
+    0.5236261874086521,
+    0.7583222566810799
+  ]
+}

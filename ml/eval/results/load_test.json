@@ -1,0 +1,25 @@
+{
+  "requests": 300,
+  "ok": 300,
+  "non_200": 0,
+  "status_counts": {
+    "200": 300
+  },
+  "concurrency": 8,
+  "sessions": 12,
+  "wall_seconds": 2.84,
+  "throughput_rps": 105.7,
+  "latency_p50_ms": 28.2,
+  "latency_p95_ms": 37.3,
+  "latency_mean_ms": 25.5,
+  "mix": {
+    "What is the monthly maintenance fee on my current account?": 0.3,
+    "How many free ATM withdrawals do I get each month?": 0.2,
+    "What is my default daily card spending limit?": 0.15,
+    "How do I close my account?": 0.1,
+    "Please freeze my card, I lost it": 0.1,
+    "What is the weather in Dubai tomorrow?": 0.1,
+    "Can I speak to a real person please?": 0.05
+  },
+  "target": "http://127.0.0.1:8080"
+}

@@ -1,0 +1,37 @@
+{
+  "auc_test": 0.7243669997425878,
+  "positive_rate": 0.15095,
+  "slice_auc": {
+    "country": {
+      "AE": 0.7348127591982546,
+      "SA": 0.701516320742426
+    },
+    "language": {
+      "ar": 0.7333656478102191,
+      "en": 0.7181525229487922
+    }
+  },
+  "top_shap": [
+    [
+      "share_online",
+      0.6396524554872391
+    ],
+    [
+      "share_travel",
+      0.6047726769190015
+    ],
+    [
+      "share_atm",
+      0.30111340935458547
+    ],
+    [
+      "income_total",
+      0.11190248437911857
+    ],
+    [
+      "mean_abs_amount",
+      0.10635039576976668
+    ]
+  ],
+  "label": "SYNTHETIC rule, not real outcomes"
+}

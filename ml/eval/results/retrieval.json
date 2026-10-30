@@ -1,0 +1,38 @@
+{
+  "bm25_only": {
+    "recall_at_5": 0.8666666666666667,
+    "mrr": 0.7722222222222223,
+    "answer_rate_in_scope": 0.8333333333333334,
+    "citation_correct_in_scope": 0.65,
+    "abstain_rate_out_of_scope": 1.0,
+    "n_in_scope": 60.0,
+    "n_out_of_scope": 10.0
+  },
+  "dense_only": {
+    "recall_at_5": 0.95,
+    "mrr": 0.8972222222222223,
+    "answer_rate_in_scope": 0.7666666666666667,
+    "citation_correct_in_scope": 0.7,
+    "abstain_rate_out_of_scope": 1.0,
+    "n_in_scope": 60.0,
+    "n_out_of_scope": 10.0
+  },
+  "hybrid": {
+    "recall_at_5": 0.9333333333333333,
+    "mrr": 0.895,
+    "answer_rate_in_scope": 0.9,
+    "citation_correct_in_scope": 0.7833333333333333,
+    "abstain_rate_out_of_scope": 1.0,
+    "n_in_scope": 60.0,
+    "n_out_of_scope": 10.0
+  },
+  "hybrid_rerank": {
+    "recall_at_5": 0.9833333333333333,
+    "mrr": 0.9166666666666666,
+    "answer_rate_in_scope": 0.8,
+    "citation_correct_in_scope": 0.75,
+    "abstain_rate_out_of_scope": 1.0,
+    "n_in_scope": 60.0,
+    "n_out_of_scope": 10.0
+  }
+}

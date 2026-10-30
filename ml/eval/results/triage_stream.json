@@ -1,0 +1,21 @@
+{
+  "tickets_sent": 500,
+  "tickets_triaged": 500,
+  "intent_accuracy_synthetic": 1.0,
+  "routes": {
+    "human_review": 284,
+    "agent_draft": 216
+  },
+  "reasons": {
+    "no_policy_match:low_query_overlap": 151,
+    "complaint_needs_agent": 67,
+    "policy_draft_ready": 216,
+    "no_policy_match:no_content_in_question": 63,
+    "high_risk_dispute_needs_approval": 3
+  },
+  "triage_latency_p50_ms": 1.81,
+  "triage_latency_p95_ms": 2.9,
+  "end_to_end_seconds": 1.59,
+  "end_to_end_tickets_per_second": 313.8,
+  "labels": "SYNTHETIC tickets; accuracy is a method check, not real-world performance"
+}

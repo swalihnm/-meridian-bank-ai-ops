@@ -1,0 +1,48 @@
+{
+  "customers_checked": 300,
+  "features_checked": 10,
+  "tolerance_relative": 1e-05,
+  "total_mismatches": 0,
+  "per_feature": {
+    "n_accounts": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "n_txn": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "mean_abs_amount": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "share_online": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "share_atm": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "share_travel": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "share_transfer_out": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "income_total": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "segment_affluent": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    },
+    "segment_business": {
+      "online_mismatches": 0,
+      "offline_mismatches": 0
+    }
+  }
+}

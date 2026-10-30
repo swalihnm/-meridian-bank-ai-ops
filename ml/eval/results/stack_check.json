@@ -1,0 +1,12 @@
+{
+  "api_healthy": true,
+  "traffic_ok": "40/40",
+  "prometheus_targets": {
+    "meridian-api": "up"
+  },
+  "alert_rules_loaded": 3,
+  "requests_seen_by_prometheus": 70.0,
+  "grafana_dashboards": [
+    "Meridian assistant"
+  ]
+}

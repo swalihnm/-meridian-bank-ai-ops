@@ -1,0 +1,679 @@
+{
+  "model": "gpt-oss:20b",
+  "judge": {
+    "n_judged": 50,
+    "agreement_with_programmatic_label": 0.9,
+    "agreement_ci95": [
+      0.786,
+      0.957
+    ],
+    "cohen_kappa_vs_programmatic_label": 0.699,
+    "judge_says_supported": 40,
+    "reference_correct": 39,
+    "rows": [
+      {
+        "id": "R001",
+        "cited": "POL-001",
+        "expected": "POL-001",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R002",
+        "cited": "POL-001",
+        "expected": "POL-001",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R003",
+        "cited": "POL-003",
+        "expected": "POL-002",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R004",
+        "cited": "POL-003",
+        "expected": "POL-002",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R005",
+        "cited": "POL-003",
+        "expected": "POL-003",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R006",
+        "cited": "POL-003",
+        "expected": "POL-003",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R007",
+        "cited": "POL-004",
+        "expected": "POL-004",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R008",
+        "cited": "POL-005",
+        "expected": "POL-005",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R009",
+        "cited": "POL-005",
+        "expected": "POL-005",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R010",
+        "cited": "POL-006",
+        "expected": "POL-006",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R012",
+        "cited": "POL-007",
+        "expected": "POL-007",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R013",
+        "cited": "POL-005",
+        "expected": "POL-008",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R014",
+        "cited": "POL-011",
+        "expected": "POL-009",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R015",
+        "cited": "POL-009",
+        "expected": "POL-009",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R016",
+        "cited": "POL-010",
+        "expected": "POL-010",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R017",
+        "cited": "POL-011",
+        "expected": "POL-011",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R018",
+        "cited": "POL-012",
+        "expected": "POL-012",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R019",
+        "cited": "POL-012",
+        "expected": "POL-013",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R022",
+        "cited": "POL-016",
+        "expected": "POL-016",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R023",
+        "cited": "POL-017",
+        "expected": "POL-017",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R024",
+        "cited": "POL-018",
+        "expected": "POL-018",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R025",
+        "cited": "POL-019",
+        "expected": "POL-019",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R026",
+        "cited": "POL-019",
+        "expected": "POL-020",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R027",
+        "cited": "POL-018",
+        "expected": "POL-021",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R028",
+        "cited": "POL-022",
+        "expected": "POL-022",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R029",
+        "cited": "POL-023",
+        "expected": "POL-023",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R030",
+        "cited": "POL-024",
+        "expected": "POL-024",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R032",
+        "cited": "POL-026",
+        "expected": "POL-026",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R033",
+        "cited": "POL-028",
+        "expected": "POL-027",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R035",
+        "cited": "POL-029",
+        "expected": "POL-029",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R036",
+        "cited": "POL-030",
+        "expected": "POL-030",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R037",
+        "cited": "POL-011",
+        "expected": "POL-011",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R038",
+        "cited": "POL-024",
+        "expected": "POL-024",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R041",
+        "cited": "POL-009",
+        "expected": "POL-011",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R042",
+        "cited": "POL-020",
+        "expected": "POL-020",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R043",
+        "cited": "POL-012",
+        "expected": "POL-012",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R044",
+        "cited": "POL-015",
+        "expected": "POL-015",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R045",
+        "cited": "POL-008",
+        "expected": "POL-008",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R046",
+        "cited": "POL-030",
+        "expected": "POL-030",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R048",
+        "cited": "POL-023",
+        "expected": "POL-023",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R049",
+        "cited": "POL-001",
+        "expected": "POL-021",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R050",
+        "cited": "POL-027",
+        "expected": "POL-027",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R051",
+        "cited": "POL-014",
+        "expected": "POL-014",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R052",
+        "cited": "POL-029",
+        "expected": "POL-029",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R053",
+        "cited": "POL-022",
+        "expected": "POL-022",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R056",
+        "cited": "POL-017",
+        "expected": "POL-017",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R057",
+        "cited": "POL-018",
+        "expected": "POL-018",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R058",
+        "cited": "POL-009",
+        "expected": "POL-008",
+        "judge": "NOT_SUPPORTED"
+      },
+      {
+        "id": "R059",
+        "cited": "POL-016",
+        "expected": "POL-016",
+        "judge": "SUPPORTED"
+      },
+      {
+        "id": "R060",
+        "cited": "POL-012",
+        "expected": "POL-012",
+        "judge": "SUPPORTED"
+      }
+    ]
+  },
+  "generation": {
+    "in_scope_n": 60,
+    "answered": 50,
+    "citation_correct": 48,
+    "citation_correct_rate": 0.8,
+    "unsupported_sentence_rate": 0.107,
+    "out_of_scope_n": 10,
+    "out_of_scope_refused": 10,
+    "out_of_scope_answered": 0,
+    "rows": [
+      {
+        "id": "R001",
+        "cited": "POL-001",
+        "expected": "POL-001",
+        "answer": "The monthly maintenance fee on a current account is AED 15, unless you qualify for a waiver (e.g., a monthly salary credit of at least AED 5,000 or an average balance of at least AED 10,000)."
+      },
+      {
+        "id": "R002",
+        "cited": "POL-001",
+        "expected": "POL-001",
+        "answer": "The AED 15 monthly maintenance fee on a current account is waived when the monthly salary credit is at least AED 5,000 or the average balance over the month is at least AED 10,000."
+      },
+      {
+        "id": "R003",
+        "cited": "POL-002",
+        "expected": "POL-002",
+        "answer": "You pay a foreign‑currency fee of 2.5 % of the transaction amount, added to the converted amount."
+      },
+      {
+        "id": "R004",
+        "cited": "POL-002",
+        "expected": "POL-002",
+        "answer": "Yes, card payments made in a currency other than AED incur a foreign currency fee of 2.5 percent of the transaction amount, added to the converted amount."
+      },
+      {
+        "id": "R005",
+        "cited": "POL-003",
+        "expected": "POL-003",
+        "answer": "You get five free withdrawals per calendar month."
+      },
+      {
+        "id": "R006",
+        "cited": "POL-003",
+        "expected": "POL-003",
+        "answer": "It costs AED 10 per withdrawal from another bank’s ATM in the UAE."
+      },
+      {
+        "id": "R007",
+        "cited": "POL-004",
+        "expected": "POL-004",
+        "answer": "If you miss a payment, a late payment charge of AED 100 applies. If it is a second consecutive late payment within six months, the charge is AED 200."
+      },
+      {
+        "id": "R008",
+        "cited": "POL-005",
+        "expected": "POL-005",
+        "answer": "You can raise a dispute within 60 days of the statement date showing the transaction."
+      },
+      {
+        "id": "R009",
+        "cited": "POL-005",
+        "expected": "POL-005",
+        "answer": "You can raise a dispute in the app, by chat, or at a branch."
+      },
+      {
+        "id": "R010",
+        "cited": "POL-006",
+        "expected": "POL-006",
+        "answer": "The bank decides on card disputes within 45 days."
+      },
+      {
+        "id": "R011",
+        "cited": "POL-006",
+        "expected": "POL-006",
+        "answer": "The bank may apply a provisional credit to your account for the disputed amount while the dispute is being checked, but this credit will be reversed if the dispute is ultimately rejected."
+      },
+      {
+        "id": "R012",
+        "cited": "POL-007",
+        "expected": "POL-007",
+        "answer": "Yes, a dispute of AED 2,000 requires approval by a Meridian support agent before it is submitted to the card network."
+      },
+      {
+        "id": "R013",
+        "cited": "POL-005",
+        "expected": "POL-008",
+        "answer": "You are not liable if you dispute the transaction within 60 days of the statement date showing the transaction."
+      },
+      {
+        "id": "R014",
+        "cited": "POL-025",
+        "expected": "POL-009",
+        "answer": "Use the link that appears in the alert for an unauthorised transaction to freeze the card; alerts are free."
+      },
+      {
+        "id": "R015",
+        "cited": "POL-009",
+        "expected": "POL-009",
+        "answer": "Freezing a card does not cancel recurring payments unless the customer specifically requests that."
+      },
+      {
+        "id": "R016",
+        "cited": "POL-010",
+        "expected": "POL-010",
+        "answer": "No, you cannot unfreeze it yourself; it can only be unfrozen after a fraud agent has reviewed the case."
+      },
+      {
+        "id": "R017",
+        "cited": "POL-011",
+        "expected": "POL-011",
+        "answer": "It takes up to five business days to receive a replacement card after it has been stolen."
+      },
+      {
+        "id": "R018",
+        "cited": "POL-012",
+        "expected": "POL-012",
+        "answer": "The default daily card spending limit is AED 20,000 for current accounts and AED 10,000 for savings accounts."
+      },
+      {
+        "id": "R019",
+        "cited": "POL-013",
+        "expected": "POL-013",
+        "answer": "Yes, you can request a higher daily spending limit in the app or by chat. Increases up to AED 30,000 are automatically approved for customers with no open disputes or fraud flags in the last 90 days; larger increases are reviewed by a credit officer within two business days."
+      },
+      {
+        "id": "R020",
+        "cited": "POL-014",
+        "expected": "POL-014",
+        "answer": "You can transfer up to AED 50,000 per day through the app."
+      },
+      {
+        "id": "R021",
+        "cited": "POL-015",
+        "expected": "POL-015",
+        "answer": "You need to provide an Emirates ID or passport, proof of address dated within the last three months, and a selfie for liveness checks."
+      },
+      {
+        "id": "R022",
+        "cited": "POL-016",
+        "expected": "POL-016",
+        "answer": "You can change your postal address after verification, and the change takes effect within two business days. If you have not completed verification, you must complete the verification flow before making the change."
+      },
+      {
+        "id": "R023",
+        "cited": "POL-017",
+        "expected": "POL-017",
+        "answer": "If the refund hasn’t appeared after 14 days, first contact the merchant and keep the refund reference; if the merchant does not respond within a further 14 days, you may raise a dispute under POL‑005."
+      },
+      {
+        "id": "R024",
+        "cited": "POL-018",
+        "expected": "POL-018",
+        "answer": "Yes – the bank can reverse a card payment for goods not received by filing a chargeback after a dispute is opened and the evidence supports it."
+      },
+      {
+        "id": "R025",
+        "cited": "POL-019",
+        "expected": "POL-019",
+        "answer": "A customer may close an account at any time. The account must have a zero or positive balance and no pending transactions."
+      },
+      {
+        "id": "R026",
+        "cited": "POL-020",
+        "expected": "POL-020",
+        "answer": "No, you cannot close an overdrawn account until you repay the negative balance. The bank will send one reminder and give you 30 days to repay before closure is allowed."
+      },
+      {
+        "id": "R027",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R028",
+        "cited": "POL-022",
+        "expected": "POL-022",
+        "answer": "You can get an overdraft up to three times your average monthly salary credit, subject to credit approval."
+      },
+      {
+        "id": "R029",
+        "cited": "POL-023",
+        "expected": "POL-023",
+        "answer": "Interest is calculated on the daily closing balance using the rate in the published rate table."
+      },
+      {
+        "id": "R030",
+        "cited": "POL-024",
+        "expected": "POL-024",
+        "answer": "You can download monthly statements in the app for seven years."
+      },
+      {
+        "id": "R031",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R032",
+        "cited": "POL-026",
+        "expected": "POL-026",
+        "answer": "No, you do not need to notify the bank before traveling abroad."
+      },
+      {
+        "id": "R033",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R034",
+        "cited": "POL-028",
+        "expected": "POL-028",
+        "answer": "Yes, you can speak to a human agent; we can connect you to one."
+      },
+      {
+        "id": "R035",
+        "cited": "POL-029",
+        "expected": "POL-029",
+        "answer": "We retain chat transcripts for 12 months."
+      },
+      {
+        "id": "R036",
+        "cited": "POL-030",
+        "expected": "POL-030",
+        "answer": "I cannot confirm whether you will be approved for a loan."
+      },
+      {
+        "id": "R037",
+        "cited": "POL-011",
+        "expected": "POL-011",
+        "answer": "Yes, a replacement for a damaged card costs AED 25."
+      },
+      {
+        "id": "R038",
+        "cited": "POL-024",
+        "expected": "POL-024",
+        "answer": "The fee for requesting paper statements is AED 10 per month."
+      },
+      {
+        "id": "R039",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R040",
+        "cited": "POL-003",
+        "expected": "POL-003",
+        "answer": "If you withdraw money from an ATM abroad, you will be charged AED 15 per withdrawal plus the foreign‑currency fee."
+      },
+      {
+        "id": "R041",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R042",
+        "cited": "POL-020",
+        "expected": "POL-020",
+        "answer": "No, you must repay the negative balance before the account can be closed; the account must have a zero or positive balance."
+      },
+      {
+        "id": "R043",
+        "cited": "POL-012",
+        "expected": "POL-012",
+        "answer": "Your card limits reset at 00:00 UAE time each day."
+      },
+      {
+        "id": "R044",
+        "cited": "POL-015",
+        "expected": "POL-015",
+        "answer": "The bank re‑verifies customers every five years or sooner when risk signals change."
+      },
+      {
+        "id": "R045",
+        "cited": "POL-008",
+        "expected": "POL-008",
+        "answer": "You are not liable for that transaction."
+      },
+      {
+        "id": "R046",
+        "cited": "POL-030",
+        "expected": "POL-030",
+        "answer": "The assistant cannot give investment advice."
+      },
+      {
+        "id": "R047",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R048",
+        "cited": "POL-023",
+        "expected": "POL-023",
+        "answer": "The savings account interest rate is listed in the current rate table. Please refer to the rate table for the most up-to-date rate."
+      },
+      {
+        "id": "R049",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R050",
+        "cited": "POL-027",
+        "expected": "POL-027",
+        "answer": "If you are not satisfied with the outcome, the complaint will be escalated to a senior complaints officer."
+      },
+      {
+        "id": "R051",
+        "cited": "POL-014",
+        "expected": "POL-014",
+        "answer": "No, transfers above AED 50,000 per day cannot be done through the app; they require a branch visit or a video verification call."
+      },
+      {
+        "id": "R052",
+        "cited": "POL-029",
+        "expected": "POL-029",
+        "answer": "No, card numbers are never stored in chat transcripts."
+      },
+      {
+        "id": "R053",
+        "cited": "POL-022",
+        "expected": "POL-022",
+        "answer": "Overdraft interest is charged daily at the rate in the published rate table."
+      },
+      {
+        "id": "R054",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R055",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R056",
+        "cited": "POL-017",
+        "expected": "POL-017",
+        "answer": "You should wait 14 days for the refund to appear before contacting the merchant."
+      },
+      {
+        "id": "R057",
+        "cited": "POL-018",
+        "expected": "POL-018",
+        "answer": "Yes, you can file a chargeback for duplicate charges, as a chargeback can be used for goods not received, goods not as described, or duplicate charges."
+      },
+      {
+        "id": "R058",
+        "cited": null,
+        "refused": true
+      },
+      {
+        "id": "R059",
+        "cited": "POL-016",
+        "expected": "POL-016",
+        "answer": "No, you must be verified before changing your address; the change takes effect within two business days."
+      },
+      {
+        "id": "R060",
+        "cited": "POL-012",
+        "expected": "POL-012",
+        "answer": "The default daily ATM withdrawal limit is AED 3,000."
+      }
+    ]
+  },
+  "caveat": "Judge reference label is programmatic (cited == expected), not human. Generated answers use the same citation check as the extractive path."
+}

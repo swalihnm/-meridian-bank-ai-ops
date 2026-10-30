@@ -1,0 +1,9 @@
+{
+  "n_labelled": 2,
+  "human_correct_share": 0.5,
+  "agreement_human_vs_programmatic": 1.0,
+  "kappa_human_vs_programmatic": 1.0,
+  "n_with_judge": 2,
+  "kappa_human_vs_judge": 1.0,
+  "agreement_human_vs_judge": 1.0
+}

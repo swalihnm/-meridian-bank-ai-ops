@@ -1,0 +1,58 @@
+{
+  "arabic_on_arabic_subset": {
+    "n": 10,
+    "recall_at_5": 0.9,
+    "recall_at_5_ci95": [
+      0.596,
+      0.982
+    ],
+    "citation_correct": 0.9,
+    "answer_rate": 0.9
+  },
+  "english_on_english_subset": {
+    "n": 10,
+    "recall_at_5": 1.0,
+    "recall_at_5_ci95": [
+      0.722,
+      1.0
+    ],
+    "citation_correct": 0.8,
+    "answer_rate": 0.8
+  },
+  "arabic_on_full_english_index": {
+    "n": 10,
+    "recall_at_5": 0.4,
+    "recall_at_5_ci95": [
+      0.168,
+      0.687
+    ],
+    "citation_correct": 0.0,
+    "answer_rate": 0.0
+  },
+  "arabic_on_combined_index": {
+    "n": 10,
+    "recall_at_5": 0.9,
+    "recall_at_5_ci95": [
+      0.596,
+      0.982
+    ],
+    "citation_correct": 0.9,
+    "answer_rate": 0.9
+  },
+  "english_on_combined_index": {
+    "n": 10,
+    "recall_at_5": 1.0,
+    "recall_at_5_ci95": [
+      0.722,
+      1.0
+    ],
+    "citation_correct": 0.7,
+    "answer_rate": 0.8
+  },
+  "arabic_out_of_scope_answered": {
+    "index": "arabic_subset",
+    "answered": 0,
+    "n": 3
+  },
+  "note": "Arabic golden set is 10 in-scope and 3 out-of-scope questions, written by the project. Translations are not native-speaker reviewed. Tokenization is lexical (no stemming), so inflected forms can miss."
+}

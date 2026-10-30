@@ -1,0 +1,12 @@
+{
+  "api": "http://127.0.0.1:8000",
+  "steps": {
+    "chat_works_before": true,
+    "non_admin_cannot_kill": true,
+    "admin_trips_kill_switch": true,
+    "chat_paused_while_killed": true,
+    "admin_resumes": true,
+    "chat_works_after_resume": true
+  },
+  "all_passed": true
+}
