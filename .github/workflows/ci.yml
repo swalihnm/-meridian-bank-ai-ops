@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install
+        run: python -m pip install -e ".[dev]"
+      - name: Lint
+        run: |
+          python -m ruff check .
+          python -m ruff format --check .
+      - name: Type check
+        run: python -m mypy
+      - name: Test
+        run: python -m pytest
+      - name: Guardrail gate
+        run: python -m ml.eval.scenario_eval --gate
