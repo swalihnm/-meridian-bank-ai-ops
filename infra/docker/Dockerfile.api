@@ -1,0 +1,22 @@
+# Meridian assistant API. Build from the repository root:
+#   docker build -f infra/docker/Dockerfile.api -t meridian-api .
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1
+WORKDIR /app
+
+# Only what the API needs at runtime. Dev tools and the ML stack are not in the image.
+COPY pyproject.toml README.md ./
+COPY data ./data
+COPY services ./services
+RUN pip install --no-deps -e . && pip install \
+    "pandas>=2.2" "numpy>=1.26" "pyarrow>=16" "pandera>=0.20" "rank-bm25>=0.2.2" \
+    "fastapi>=0.115" "httpx>=0.27" "pydantic>=2.8" "prometheus-client>=0.20" \
+    "uvicorn>=0.30" "scipy>=1.11" "opentelemetry-api>=1.25" "opentelemetry-sdk>=1.25"
+
+RUN useradd --create-home --uid 10001 meridian
+USER meridian
+
+EXPOSE 8000
+HEALTHCHECK --interval=30s --timeout=3s CMD python -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health').status==200 else 1)"
+CMD ["uvicorn", "services.api.app:app", "--host", "0.0.0.0", "--port", "8000"]

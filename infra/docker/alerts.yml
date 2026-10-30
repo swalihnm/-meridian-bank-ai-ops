@@ -1,0 +1,26 @@
+# Alert rules for the Meridian assistant (Week 9). Thresholds are first guesses to be tuned on real
+# traffic; the load test (ml/eval/load_test.py) showed p95 of about 37 ms locally.
+groups:
+  - name: meridian-assistant
+    rules:
+      - alert: AssistantErrorRateHigh
+        expr: rate(meridian_chat_errors_total[5m]) / clamp_min(rate(meridian_chat_requests_total[5m]), 1e-9) > 0.02
+        for: 5m
+        labels:
+          severity: page
+        annotations:
+          summary: "Assistant error rate above 2 percent for 5 minutes"
+      - alert: AssistantLatencyP95High
+        expr: histogram_quantile(0.95, sum by (le) (rate(meridian_chat_latency_seconds_bucket[5m]))) > 1
+        for: 10m
+        labels:
+          severity: warn
+        annotations:
+          summary: "Assistant p95 latency above 1 second for 10 minutes"
+      - alert: AssistantNoTraffic
+        expr: sum(rate(meridian_chat_requests_total[10m])) == 0
+        for: 15m
+        labels:
+          severity: warn
+        annotations:
+          summary: "No chat requests for 15 minutes; check the gateway or the kill-switch"

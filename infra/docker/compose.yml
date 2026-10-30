@@ -1,0 +1,32 @@
+# Local stack: API, Prometheus scraping the API, and Grafana with the provisioned dashboard.
+# Secrets are read from the environment (or an untracked .env file), never written here.
+services:
+  api:
+    build:
+      context: ../..
+      dockerfile: infra/docker/Dockerfile.api
+    environment:
+      MERIDIAN_ADMIN_TOKEN: ${MERIDIAN_ADMIN_TOKEN:?set MERIDIAN_ADMIN_TOKEN in the environment}
+    ports:
+      - "8000:8000"
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./alerts.yml:/etc/prometheus/alerts.yml:ro
+    ports:
+      - "9090:9090"
+    depends_on:
+      - api
+
+  grafana:
+    image: grafana/grafana:11.2.0
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:?set GRAFANA_ADMIN_PASSWORD in the environment}
+    volumes:
+      - ../grafana:/etc/grafana/provisioning/dashboards:ro
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
