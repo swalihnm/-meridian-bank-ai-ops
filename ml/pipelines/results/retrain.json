@@ -1,0 +1,27 @@
+{
+  "drift_findings": [
+    {
+      "feature": "message_length",
+      "psi": 7.1861,
+      "level": "significant"
+    },
+    {
+      "feature": "intent_mix",
+      "psi": 1.0268,
+      "level": "significant"
+    }
+  ],
+  "drift_alert": true,
+  "action": "retrained TF-IDF logistic regression and evaluated it",
+  "retrained_metrics": {
+    "test_accuracy": 0.8896,
+    "test_macro_f1": 0.8897,
+    "test_ece_calibrated": 0.1698
+  },
+  "promote": false,
+  "gate_reasons": [
+    "test_accuracy 0.8896 does not meet >= 0.92",
+    "test_macro_f1 0.8897 does not meet >= 0.91",
+    "test_ece_calibrated 0.1698 does not meet <= 0.05"
+  ]
+}

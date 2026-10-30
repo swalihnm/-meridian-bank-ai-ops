@@ -1,0 +1,11 @@
+# Feast feature store for Meridian (Week 7). Local provider: Parquet offline, SQLite online.
+# Run from this folder: feast apply, then the materialise step in ml/pipelines/feast_parity.py.
+project: meridian
+provider: local
+registry: ../data/processed/feast/registry.db
+online_store:
+  type: sqlite
+  path: ../data/processed/feast/online.db
+offline_store:
+  type: file
+entity_key_serialization_version: 3
